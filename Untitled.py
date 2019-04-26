@@ -10,7 +10,7 @@ import MySQLdb as sql
 from selenium import webdriver 
 import time
 
-db = sql.connect(host = '140.136.148.212',user='sa',passwd='root', db ='test',charset='utf8')
+db = sql.connect(host = '*********',user='sa',passwd='root', db ='test',charset='utf8')
 cursor = db.cursor()
 
 urlhome  = 'https://www.urcosme.com'
